@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view>
+  <text class="title" wx:for="{{items}}">
+    {{index+1}}. {{item}}
+   </text>
+</view>

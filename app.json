@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/second/second",
+    "pages/text/text"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#339933",
+    "navigationBarTitleText": "Coding Is Fun Mini",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#339933",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "/assets/images/homepage.png",
+        "selectedIconPath": "/assets/images/homepage_fill.png"
+      },
+
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "Classes",
+        "iconPath": "/assets/images/manage.png",
+        "selectedIconPath": "/assets/images/manage_fill.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "My To-Do",
+        "iconPath": "/assets/images/mine.png",
+        "selectedIconPath": "/assets/images/mine_fill.png"
+      },
+      {
+        "pagePath": "pages/text/text",
+        "text": "Cloud Doc",
+        "iconPath": "/assets/images/feedback.png",
+        "selectedIconPath": "/assets/images/feedback_fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
